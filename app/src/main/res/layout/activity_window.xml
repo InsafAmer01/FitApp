@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88F18C"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/menu"
+            android:scaleType="fitCenter"
+            android:padding="0dp"
+            android:backgroundTint="#00000000"/>
+
+        <ImageButton
+            android:id="@+id/btnSet"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="310dp"
+            android:backgroundTint="#00000000"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/settings" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/fit" />
+
+    <ImageButton
+        android:id="@+id/btnWork"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/workout"
+        android:backgroundTint="#00000000"/>
+
+    <ImageButton
+        android:id="@+id/btnDiet"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#00000000"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/diet" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:text="Contact Us: +058 *** **** || Add us on Instagram: @FitApp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
