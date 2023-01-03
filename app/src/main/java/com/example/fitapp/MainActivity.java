@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView txt;
     private ImageView img;
     private Animation top, bottom;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
